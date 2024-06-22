@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Ailu jeje</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <form id="formulario">
+            <label for="codigo">Inserta tu código:</label>
+            <input type="text" id="codigo" name="codigo">
+            <button type="button" onclick="validarCodigo()">Enviar</button>
+        </form>
+        <div id="resultado"></div>
+        <div id="codigoErroneo"></div>
+        <div id="codigoErrores" style="display: none;"></div>
+        <button id="botonMenuPrincipal" style="display: none;" onclick="irAlMenu()">Introducir otro código</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
